@@ -84,7 +84,7 @@
                   |
     --stage "X",  |
     --stageit "X" | Stage all modified, deleted, and new files (this is a
-                  | required step before urnning '--push'); May include
+                  | required step before running '--push'); May include
                   | an optional commit message, "X"
                   |
 
