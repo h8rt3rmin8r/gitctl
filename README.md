@@ -28,8 +28,8 @@
 
 ## USAGE
 
-    hw_git <OPTION>
-    hw_git <OPTION> <OPERATION>
+    gitctl <OPTION>
+    gitctl <OPTION> <OPERATION>
 
     where "OPTION" is one or more of the following:
 
