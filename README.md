@@ -92,8 +92,8 @@
 
  - [gitctl project page on Github](https://h8rt3rmin8r.github.io/gitctl)
  - [gitctl repository on Github](https://github.com/h8rt3rmin8r/gitctl)
- - [How to check the differences between local and github | stackoverflow.com](https://stackoverflow.com/a/6000939)
- - [Staging all changes | stackoverflow.com](https://stackoverflow.com/a/26982422)
+ - [How to check the differences between local and github (stackoverflow.com)](https://stackoverflow.com/a/6000939)
+ - [Staging all changes (stackoverflow.com)](https://stackoverflow.com/a/26982422)
 
 ## ATTRIBUTION & LICENSE
 
