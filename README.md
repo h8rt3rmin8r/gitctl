@@ -90,19 +90,16 @@
 
 ## REFERENCE
 
-<i>How to check the differences between local and github  (stackoverflow.com)</i>
-
-https://stackoverflow.com/a/6000939
-
-<i>Staging all changes (stackoverflow.com)</i>
-
-https://stackoverflow.com/a/26982422
+ - [gitctl project page on Github](https://h8rt3rmin8r.github.io/gitctl)
+ - [gitctl repository on Github](https://github.com/h8rt3rmin8r/gitctl)
+ - [How to check the differences between local and github | stackoverflow.com](https://stackoverflow.com/a/6000939)
+ - [Staging all changes | stackoverflow.com](https://stackoverflow.com/a/26982422)
 
 ## ATTRIBUTION & LICENSE
 
     Created by h8rt3rmin8r (161803398@email.tg) on 20200827
 
-    Copyright 2020 [Novx.ai](https://novx.ai/)
+    Copyright 2020 Novx.ai
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
