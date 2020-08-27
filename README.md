@@ -28,28 +28,28 @@
 
 ## USAGE
 
-    `hw_git <OPTION>`
-    `hw_git <OPTION> <OPERATION>`
+    hw_git <OPTION>
+    hw_git <OPTION> <OPERATION>
 
     where "OPTION" is one or more of the following:
 
                   |
-    `-d`, `--dump`    | Dump the contents of all gitctl log files to the standard
+    -d, --dump    | Dump the contents of all gitctl log files to the standard
                   | output (overrides any specified "OPERATION" parameters)
                   |
-    `-f`, `--find`    | Try to find a local project root directory and print
+    -f, --find    | Try to find a local project root directory and print
                   | the result to the standard output (overrides any
                   | specified "OPERATION" parameters)
                   |
-    `-h`, `--help`    | Print this help text to the terminal (overrides
+    -h, --help    | Print this help text to the terminal (overrides
                   | verbosity and logging)
                   |
-    `-l`, `--log`     | Log all verbosity messages (default)
+    -l, --log     | Log all verbosity messages (default)
                   |
-    `-n`, `--no-log`  | Avoid writing verbosity messages to a log file
+    -n, --no-log  | Avoid writing verbosity messages to a log file
                   |
-    `-p "X"`,       |
-    `--project="X"` | Set the repository project directory to "X"; where "X"
+    -p "X",       |
+    --project="X" | Set the repository project directory to "X"; where "X"
                   | is the absolute path to a local project git repository
                   | (if not specified, gitctl will attempt to discover
                   | where the project is located)
@@ -57,43 +57,45 @@
                   | NOTE: You may need to wrap X in quotes if your directory
                   | path contains spaces
                   |
-    `-s`, `--silent`  | Suppress verbosity messages
+    -s, --silent  | Suppress verbosity messages
                   |
-    `-v`, `--verbose` | Display verbosity messages (default)
+    -v, --verbose | Display verbosity messages (default)
                   |
 
     and where "OPERATION" is one of the following:
 
                   |
-    `--bop "X"`,    |
-    `--bopit "X"`   | Stage all changes and subsequently push all staged
+    --bop "X",    |
+    --bopit "X"   | Stage all changes and subsequently push all staged
                   | changes to the remote repository (combines both the
                   | '--stage' and '--push' operations); This operation
                   | may include an optional commit message, "X"
                   |
-    `--check`,      |
-    `--checkit`     | Check the status of the remote repository as compared
+    --check,      |
+    --checkit     | Check the status of the remote repository as compared
                   | with the local one
                   |
-    `--pull`,       |
-    `--pullit`      | Pull the latest version of the remote repository
+    --pull,       |
+    --pullit      | Pull the latest version of the remote repository
                   |
-    `--push`,       |
-    `--pushit`      | Push new updates to the remote repository (requires
+    --push,       |
+    --pushit      | Push new updates to the remote repository (requires
                   | previous execution of '--stage')
                   |
-    `--stage "X"`,  |
-    `--stageit "X"` | Stage all modified, deleted, and new files (this is a
+    --stage "X",  |
+    --stageit "X" | Stage all modified, deleted, and new files (this is a
                   | required step before urnning '--push'); May include
                   | an optional commit message, "X"
                   |
 
 ## REFERENCE
 
-<b>How to check the differences between local and github  (stackoverflow.com)</b>
+<i>How to check the differences between local and github  (stackoverflow.com)</i>
+
 https://stackoverflow.com/a/6000939
 
-<b>Staging all changes (stackoverflow.com)</b>
+<i>Staging all changes (stackoverflow.com)</i>
+
 https://stackoverflow.com/a/26982422
 
 ## ATTRIBUTION & LICENSE
